@@ -1,0 +1,164 @@
+*{text-decoration: none;}
+
+.clearfix{overflow:auto}
+
+body {
+    background-color: rgb(15, 15, 30);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.top-bar {
+    overflow: hidden;
+    width: 1500px;
+    background-color:rgb(14, 37, 57) ;
+    border-radius: 20px;
+}
+
+.top-bar-links {
+    float: left;
+}
+
+.top-bar-links ul {
+    margin: 50px;
+    list-style: none;
+}
+
+.top-bar-links ul li {
+    padding:0 30px;
+    display: inline-block;     
+    border-right: 1px solid white;
+}
+.top-bar-links ul li:hover {
+    background: gray;
+    border-radius: 20px;
+}
+
+.top-bar-links ul li:last-child {
+    border: 0;
+}
+
+.top-bar-links ul li a {
+    font-size: 20px;
+    color: white;
+}
+
+.search {
+    padding:20px 30px;
+    margin: 25px;
+    float:right;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.search button:hover {
+    cursor:grab;
+}
+
+.search input {
+    border: 0;
+    float: left;
+}
+
+.search button { 
+    width: 24px;
+    height: 24px;
+    background: url(/images/search.png);
+    border: 0;
+    float: right;
+}
+
+header .logo {
+    float: left;
+    padding-left: 50px;
+}
+header .logo h1 {
+    color: white;
+    margin: 0 ;
+    font-size: 80px;
+    font-variant: small-caps;
+    letter-spacing: -1px;
+}
+
+header .logo p {
+    color: gray;
+    margin: 0;
+    font-size: 40px;
+    font-family: sans-serif;
+
+}
+header .socials ul {
+    list-style: none;
+}
+
+header .socials ul li {
+    display: inline;
+} 
+
+header .socials {
+    float: right;
+    margin-top: 30px; 
+    padding-right: 50px;
+}
+
+header .socials ul li a :hover {
+    background: rgb(77, 84, 103);
+    border-radius: 10px;
+}
+
+nav {
+    background-color: rgb(37, 37, 83);
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding:10px 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+
+}
+
+nav ul li a {
+    color: azure;
+    text-transform: uppercase;
+    margin:20px 50px 20px 50px;
+    display: inline-block;
+    font-size: 25px;
+}  
+
+nav ul li a:hover{
+    color: rgb(171, 161, 161);
+
+}
+
+.intro {
+    margin-top: 20px;
+}
+
+.introimg img{
+    width: 100%;
+    max-width: 600px;
+    vertical-align: middle;
+    border-radius: 80px;
+    padding: 50px;
+    float: left;
+}
+
+.introtext {
+    color: white;
+    width: 500px;
+    float: left;
+}
+
+.introtext h1 {
+    font-size: 100px;
+}
