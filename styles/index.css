@@ -1,9 +1,13 @@
-*{text-decoration: none;}
+* {
+    text-decoration: none;
+}
 
-.clearfix{overflow:auto}
+.clearfix {
+    overflow: auto
+}
 
 body {
-    background-color: rgb(15, 15, 30);
+    background-color: aliceblue;
 }
 
 .wrapper {
@@ -14,7 +18,7 @@ body {
 .top-bar {
     overflow: hidden;
     width: 1500px;
-    background-color:rgb(14, 37, 57) ;
+    background-color: rgb(42, 53, 63);
     border-radius: 20px;
 }
 
@@ -28,10 +32,11 @@ body {
 }
 
 .top-bar-links ul li {
-    padding:0 30px;
-    display: inline-block;     
+    padding: 0 30px;
+    display: inline-block;
     border-right: 1px solid white;
 }
+
 .top-bar-links ul li:hover {
     background: gray;
     border-radius: 20px;
@@ -47,15 +52,15 @@ body {
 }
 
 .search {
-    padding:20px 30px;
+    padding: 20px 30px;
     margin: 25px;
-    float:right;
+    float: right;
     background-color: white;
     border-radius: 30px;
 }
 
 .search button:hover {
-    cursor:grab;
+    cursor: grab;
 }
 
 .search input {
@@ -63,7 +68,7 @@ body {
     float: left;
 }
 
-.search button { 
+.search button {
     width: 24px;
     height: 24px;
     background: url(/images/search.png);
@@ -75,9 +80,9 @@ header .logo {
     float: left;
     padding-left: 50px;
 }
+
 header .logo h1 {
-    color: white;
-    margin: 0 ;
+    margin: 0;
     font-size: 80px;
     font-variant: small-caps;
     letter-spacing: -1px;
@@ -90,17 +95,18 @@ header .logo p {
     font-family: sans-serif;
 
 }
+
 header .socials ul {
     list-style: none;
 }
 
 header .socials ul li {
     display: inline;
-} 
+}
 
 header .socials {
     float: right;
-    margin-top: 30px; 
+    margin-top: 30px;
     padding-right: 50px;
 }
 
@@ -110,12 +116,12 @@ header .socials ul li a :hover {
 }
 
 nav {
-    background-color: rgb(37, 37, 83);
+    background-color: rgb(43, 43, 61);
     padding-left: 20px;
     text-align: center;
     margin-top: 30px;
     border-radius: 10px;
-    padding:10px 10px;
+    padding: 10px 10px;
 }
 
 nav ul {
@@ -130,12 +136,12 @@ nav ul li {
 nav ul li a {
     color: azure;
     text-transform: uppercase;
-    margin:20px 50px 20px 50px;
+    margin: 20px 50px 20px 50px;
     display: inline-block;
     font-size: 25px;
-}  
+}
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: rgb(171, 161, 161);
 
 }
@@ -144,7 +150,7 @@ nav ul li a:hover{
     margin-top: 20px;
 }
 
-.introimg img{
+.introimg img {
     width: 100%;
     max-width: 600px;
     vertical-align: middle;
@@ -154,7 +160,6 @@ nav ul li a:hover{
 }
 
 .introtext {
-    color: white;
     width: 500px;
     float: left;
 }
