@@ -111,7 +111,7 @@ header .socials {
 }
 
 header .socials ul li a :hover {
-    background: rgb(77, 84, 103);
+    background: rgba(25, 27, 34, 0.116);
     border-radius: 10px;
 }
 
